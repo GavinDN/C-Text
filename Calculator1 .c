@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int add(int x,int y)//加法 
 {
 	return x+y;
@@ -34,7 +33,7 @@ int main()
 		printf("**                                          **\n");
 		printf("**********************************************\n");
 		printf("**                                          **\n");
-		printf("**   1. 加法   2. 减法   3. 乘法   4. 除法  **\n");//1.add（加法） 2.sub：subtraction（减法） 3.mul：multiplication（乘法） 4.div：division（除法）
+		printf("**   1. 加法   2. 减法   3. 乘法   4. 除法  **\n");
 		printf("**                                          **\n"); 
 		printf("**********************************************\n");
 		printf("**                                          **\n");
@@ -78,6 +77,5 @@ int main()
 		}
 		printf("结果为：%d\n\n",num3);
 	}
-	//system("pause");
 	return 0;
 }
