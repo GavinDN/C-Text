@@ -1,22 +1,21 @@
 #include <stdio.h>
 
-
-int add(int x,int y)//¼Ó·¨ 
+int add(int x,int y)//åŠ æ³• 
 {
 	return x+y;
 }
 
-int sub(int x,int y)//¼õ·¨
+int sub(int x,int y)//å‡æ³•
 {
 	return x-y;
 } 
 
-int mul(int x,int y)//³Ë·¨ 
+int mul(int x,int y)//ä¹˜æ³• 
 {
 	return x*y;
 }
 
-int div(int x,int y)//³ı·¨ 
+int div(int x,int y)//é™¤æ³• 
 {
 	return x/y;
 }
@@ -28,13 +27,13 @@ int main()
 	
 	while(choose)
 	{
-		printf("**********************************************\n");//½çÃæÏÔÊ¾ 
+		printf("**********************************************\n");//ç•Œé¢æ˜¾ç¤º 
 		printf("**                                          **\n");
 		printf("**      Welcome to Gavin's calculator!      **\n");
 		printf("**                                          **\n");
 		printf("**********************************************\n");
 		printf("**                                          **\n");
-		printf("**   1. ¼Ó·¨   2. ¼õ·¨   3. ³Ë·¨   4. ³ı·¨  **\n");//1.add£¨¼Ó·¨£© 2.sub£ºsubtraction£¨¼õ·¨£© 3.mul£ºmultiplication£¨³Ë·¨£© 4.div£ºdivision£¨³ı·¨£©
+		printf("**   1. åŠ æ³•   2. å‡æ³•   3. ä¹˜æ³•   4. é™¤æ³•  **\n");
 		printf("**                                          **\n"); 
 		printf("**********************************************\n");
 		printf("**                                          **\n");
@@ -42,9 +41,9 @@ int main()
 		printf("**                                          **\n");
 		printf("**********************************************\n");
 		
-		scanf("%d",&choose);//ÊäÈëÄãµÄÑ¡Ôñ 
+		scanf("%d",&choose);//è¾“å…¥ä½ çš„é€‰æ‹© 
 		
-		switch(choose)//choose±äÁ¿µÄÊ¹ÓÃ 
+		switch(choose)//chooseå˜é‡çš„ä½¿ç”¨ 
 		{
 			case 1:
 			{
@@ -76,7 +75,7 @@ int main()
 			default :
 				printf("Error ,Please reselect !\n");
 		}
-		printf("½á¹ûÎª£º%d\n\n",num3);
+		printf("ç»“æœä¸ºï¼š%d\n\n",num3);
 	}
 	//system("pause");
 	return 0;
