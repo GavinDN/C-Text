@@ -36,10 +36,7 @@ int main()
 		printf("**   1. 加法   2. 减法   3. 乘法   4. 除法  **\n");
 		printf("**                                          **\n"); 
 		printf("**********************************************\n");
-		printf("**                                          **\n");
-		printf("** Please select your method of calculation **\n");
-		printf("**                                          **\n");
-		printf("**********************************************\n");
+		printf("选择你需要的计算模式：                        \n");
 		
 		scanf("%d",&choose);//输入你的选择 
 		
@@ -47,33 +44,33 @@ int main()
 		{
 			case 1:
 			{
-				printf("Please select two Numbers to add:\n");
+				printf("选择两个数相加:\n");
 				scanf("%d %d",&num1,&num2);
 				num3 = add(num1,num2);
 			};break; 
 			
 			case 2:
 			{
-				printf("Please select two Numbers to sub:\n");
+				printf("选择两个数相减:\n");
 				scanf("%d %d",&num1,&num2);
 				num3 = sub(num1,num2);
 			}break; 
 			
 			case 3:
 			{
-				printf("Please select two Numbers to mul:\n");
+				printf("选择两个数相乘:\n");
 				scanf("%d %d",&num1,&num2);
 				num3 = mul(num1,num2);
 			}break;
 			
 			case 4:
 			{
-				printf("Please select two Numbers to div:\n");
+				printf("选择两个数相除:\n");
 				scanf("%d %d",&num1,&num2);
 				num3 = div(num1,num2);			
 			}break;
 			default :
-				printf("Error ,Please reselect !\n");
+				printf("错误，请重新选择!\n");
 		}
 		printf("结果为：%d\n\n",num3);
 	}
