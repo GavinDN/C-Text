@@ -2,18 +2,17 @@
 
 int main() 
 {
-	char test;//¶¨ÒåÒ»¸ö×Ö·ûĞÍ±äÁ¿ i 
+	char test;//å®šä¹‰ä¸€ä¸ªå­—ç¬¦å‹å˜é‡ test 
 
-	printf("ÇëÎÊÄúÊÇÄĞÉú»¹ÊÇÅ®Éú£¿£¨ÇëÊäÈëM/F£©\n");
+	printf("è¯·é—®æ‚¨æ˜¯ç”·ç”Ÿè¿˜æ˜¯å¥³ç”Ÿï¼Ÿï¼ˆè¯·è¾“å…¥M/Fï¼‰\n");
 	scanf("%c",&test); 
 	 
 	switch(test)
 	{
-		case 77: printf("Ô­À´ÄãÊÇÄĞÉú°¡£¡");break;
-		case 70: printf("Ô­À´ÄãÊÇÅ®Éú°¡£¡");break;
-		default : printf("ÊäÈë´íÎó£¡");
+		case 77: printf("åŸæ¥ä½ æ˜¯ç”·ç”Ÿå•Šï¼");break;
+		case 70: printf("åŸæ¥ä½ æ˜¯å¥³ç”Ÿå•Šï¼");break;
+		default : printf("è¾“å…¥é”™è¯¯ï¼");
 	} 
-
 		
 	return 0;
 }
